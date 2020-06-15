@@ -1,0 +1,23 @@
+body {
+    text-align: center;
+}
+
+#counter {
+    margin-top: 200px;
+    margin-bottom: 16px;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+button {
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+button#add {
+    color: green;
+}
+
+button#subtract {
+    color: red;
+}

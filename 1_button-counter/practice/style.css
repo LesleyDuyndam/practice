@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(241, 241, 241);
+}
+
+.page {
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: inline-block;
+    width: 66%;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 16px;
+    margin-top: 16px;
+}
+
+.sidebar {
+
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+
+}
+
+.sidebar-title {
+    background-color: cornflowerblue;
+}
