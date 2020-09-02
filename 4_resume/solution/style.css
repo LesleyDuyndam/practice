@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --unit: 8px;
+    --color-primary: green;
+    --color-secondary: orange;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.page-width {
+    margin: 0 auto;
+    max-width: 1024px;
+    display: flex;
+}
+
+.sidebar {
+    padding: var(--unit);
+    flex: 4;
+}
+
+.passport {
+    padding: var(--unit);
+}
+
+.passport .avatar {
+    width: 200px;
+    height: 200px;
+    /* border-radius: 50%; */
+    background-color: rgba(33,33,33,1);
+    box-shadow: 8px 8px 0px 0px var(--color-primary),
+                -8px -8px 0px 0px var(--color-secondary);
+    background-image: url('/4_resume/solution/avatar.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+
+.passport .name {
+    margin: var(--unit) var(--unit) 0;
+}
+
+.passport .function {
+    font-size: 14px;
+}
+
+.navigation {
+    padding: var(--unit);
+}
+
+.navigation .link {
+    display: block;
+    padding: 4px;
+    text-decoration: none;
+    color: var(--color-primary);
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+.navigation .link:last-child {
+    border-bottom: none;
+}
+
+.skills {
+    padding: var(--unit);
+}
+
+.skills .skill {
+    display: inline-block;
+    font-size: 12px;
+    padding: 8px;
+    background-color: rgba(0,0,0,0.05);
+    margin: 0 4px 8px 0;
+}
+
+.content {
+    padding: var(--unit);
+    padding-left: 32px;
+    flex: 8;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-primary);
+}
+
+mark {
+    background-color: var(--color-secondary);    
+}
